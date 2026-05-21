@@ -27,12 +27,24 @@ $body-link-color: #0d88ff;
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
+.project-content {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap; // sorgt für mobile Umbruch
+}
+
 .project-image {
-  width: 100%;
+  width: 180px;
   border-radius: 6px;
-  margin-bottom: 0.8rem;
+  flex-shrink: 0;
   filter: brightness(0.95);
   transition: filter 0.2s ease;
+}
+
+.project-text {
+  flex: 1;
+  min-width: 200px;
 }
 
 .project-card:hover .project-image {
