@@ -15,7 +15,7 @@ layout: default
 # Inverted Pendulum
 
 <figure>
-  <img src="/assets/img/pendulum.jpg" alt="Inverted Pendulum">
+  <img src="/assets/img/pendulum.jpg" alt="Inverted Pendulum" class="project-detail-image">
   <figcaption>Inverted Pendulum prototype (2025)</figcaption>
 </figure>
 
@@ -30,8 +30,8 @@ Real-time control system with custom PCB, STM32 firmware, and sensor fusion.
 - Real-time control
 
 ## Repository
-<a href="https://github.com/USERNAME/pendulum">GitHub →</a>
+[https://github.com/USERNAME/pendulum](https://github.com/USERNAME/pendulum)
 
 ---
 
-<a href="/" class="social-btn">← Back</a>
+<a href="/" class="social-btn" style="padding-top: 2em">← Back</a>
