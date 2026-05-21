@@ -51,7 +51,7 @@ $body-link-color: #0d88ff;
 
 .social-email {
   padding: 0.6rem 1.2rem;
-  background: #e9f4ff;
+  background: $header-bg-color;
   border-radius: 6px;
 }
 
@@ -68,8 +68,8 @@ $body-link-color: #0d88ff;
 }
 
 .resume-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
 }
 
@@ -135,6 +135,21 @@ $body-link-color: #0d88ff;
 
 // PROJECT DETAILS
 
+.breadcrumbs {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.breadcrumbs a {
+  color: $header-bg-color-secondary;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
 .project-detail {
   display: flex;
   gap: 2rem;
@@ -149,4 +164,15 @@ $body-link-color: #0d88ff;
 .project-detail-text {
   flex: 1;
   min-width: 260px;
+}
+
+figure {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-top: 0.4rem;
 }
