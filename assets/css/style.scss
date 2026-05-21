@@ -5,6 +5,7 @@ $header-bg-color: #99cdff;
 $header-bg-color-secondary: #0d88ff;
 $section-headings-color: #0d88ff;
 $body-link-color: #0d88ff;
+$social-email-color: #e3f1ff
 
 @import "{{ site.theme }}";
 
@@ -51,7 +52,7 @@ $body-link-color: #0d88ff;
 
 .social-email {
   padding: 0.6rem 1.2rem;
-  background: $header-bg-color;
+  background: $social-email-color;
   border-radius: 6px;
 }
 
