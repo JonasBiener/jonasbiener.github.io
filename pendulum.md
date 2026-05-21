@@ -1,11 +1,23 @@
 ---
 title: "Inverted Pendulum"
+description: "Unstable Systems • Control • Simulation"
 layout: default
+---
+
+<nav class="breadcrumbs">
+  <a href="/">Home</a> /
+  <a href="/projects">Projects</a> /
+  <span>Inverted Pendulum</span>
+</nav>
+
 ---
 
 # Inverted Pendulum
 
-<img src="/assets/img/pendulum.jpg" class="project-detail-image">
+<figure>
+  <img src="/assets/img/pendulum.jpg" alt="Inverted Pendulum">
+  <figcaption>Inverted Pendulum prototype (2025)</figcaption>
+</figure>
 
 ## Overview
 
@@ -17,7 +29,9 @@ Real-time control system with custom PCB, STM32 firmware, and sensor fusion.
 - Sensor fusion
 - Real-time control
 
-  ## Repository
-  <a href="https://github.com/USERNAME/pendulum">GitHub →</a>
+## Repository
+<a href="https://github.com/USERNAME/pendulum">GitHub →</a>
+
+---
 
 <a href="/" class="social-btn">← Back</a>
