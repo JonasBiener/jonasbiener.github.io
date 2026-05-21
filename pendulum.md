@@ -6,7 +6,7 @@ layout: default
 
 <nav class="breadcrumbs">
   <a href="/">Home</a> /
-  <a href="/projects">Projects</a> /
+  <span>Projects</span> /
   <span>Inverted Pendulum</span>
 </nav>
 
@@ -30,8 +30,8 @@ Real-time control system with custom PCB, STM32 firmware, and sensor fusion.
 - Real-time control
 
 ## Repository
-[https://github.com/USERNAME/pendulum](https://github.com/USERNAME/pendulum)
+[https://github.com/JonasBiener/pendulum](https://github.com/JonasBiener/pendulum)
 
 ---
 
-<a href="/" class="social-btn" style="padding-top: 2em">← Back</a>
+<a href="/" class="social-btn" style="margin-top: 2em">← Back</a>
