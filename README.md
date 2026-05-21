@@ -23,12 +23,12 @@
 <div class="resume-grid">
   <div class="resume-item">
     <h3>Education</h3>
-    <p>B.Eng. Mechatronics Engineering – THU Ulm</p>
+    <p><strong>B.Eng. Mechatronics Engineering</strong> – Ulm University of Applied Sciences</p>
   </div>
 
   <div class="resume-item">
     <h3>Experience</h3>
-    <p>Student Assistant – Electronics & Embedded Systems</p>
+    <p><strong>Student Assistant</strong> – Electronics & Embedded Systems</p>
   </div>
 
   <div class="resume-item">
@@ -47,7 +47,7 @@
     <div class="project-text">
       <h3>Inverted Pendulum</h3>
       <p>Real-time control system with custom PCB, STM32 firmware, and sensor fusion.</p>
-      <a href="https://github.com/USERNAME/pendulum">View Project →</a>
+      <a href="/pendulum">View Project →</a>
     </div>
   </div>
 </div>
