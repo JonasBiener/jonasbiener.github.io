@@ -8,6 +8,7 @@ $body-link-color: #0d88ff;
 
 @import "{{ site.theme }}";
 
+// MAIN - INTRO
 
 .intro-section {
   display: flex;
@@ -29,16 +30,17 @@ $body-link-color: #0d88ff;
   min-width: 250px;
 }
 
+// MAIN - SOCIAL
 
 .social-links {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem 0;
 }
 
 .social-btn {
-  background: $header-bg-color;
+  background: $header-bg-color-secondary;
   color: #fff;
   padding: 0.6rem 1.2rem;
   border-radius: 6px;
@@ -47,12 +49,45 @@ $body-link-color: #0d88ff;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
+.social-email {
+  padding: 0.6rem 1.2rem;
+  background: #e9f4ff;
+  border-radius: 6px;
+}
+
 .social-btn:hover {
-  background: $header-bg-color-secondary;
+  background: $header-bg-color;
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
+// MAIN - RESUME
+
+.resume-section {
+  margin: 3rem 0;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.resume-item {
+  background: #ffffff;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border-left: 4px solid $header-bg-color;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+.resume-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+// MAIN - PROJECTS
 
 .project-card {
   background: #ffffff;
@@ -77,7 +112,7 @@ $body-link-color: #0d88ff;
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  flex-wrap: wrap; // sorgt für mobile Umbruch
+  flex-wrap: wrap;
 }
 
 .project-image {
@@ -96,4 +131,22 @@ $body-link-color: #0d88ff;
 
 .project-card:hover .project-image {
   filter: brightness(1.05);
+}
+
+// PROJECT DETAILS
+
+.project-detail {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project-detail-image {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.project-detail-text {
+  flex: 1;
+  min-width: 260px;
 }
