@@ -17,8 +17,12 @@ I enjoy developing clean, minimalistic technical solutions and working on projec
 ### Projects
 
 <div class="project-card">
-  <img src="/assets/img/pendulum.jpg" alt="Inverted Pendulum" class="project-image">
-  <h4>Inverted Pendulum</h4>
-  <p>Real-time control system with custom PCB, STM32 firmware, and sensor fusion.</p>
-  <a href="https://github.com/USERNAME/pendulum">View Project →</a>
+  <div class="project-content">
+    <img src="/assets/img/pendulum.jpg" alt="Inverted Pendulum" class="project-image">
+    <div class="project-text">
+      <h3>Inverted Pendulum</h3>
+      <p>Real-time control system with custom PCB, STM32 firmware, and sensor fusion.</p>
+      <a href="https://github.com/USERNAME/pendulum">View Project →</a>
+    </div>
+  </div>
 </div>
