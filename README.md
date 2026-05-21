@@ -14,7 +14,7 @@
   <a href="https://www.linkedin.com/in/jonas-biener/" class="social-btn linkedin">LinkedIn</a>
   <a href="https://github.com/JonasBiener" class="social-btn github">GitHub</a>
   <a href="https://www.rocci.net/" class="social-btn rocci">RoCCI e.V.</a>
-  <span class="social-email">info [at] jonasbiener [dot] de</span>
+  <span class="social-email">info (at) jonasbiener (dot) de</span>
 </div>
 
 ---
@@ -28,7 +28,8 @@
 
   <div class="resume-item">
     <h3>Experience</h3>
-    <p><strong>Student Assistant</strong> – Electronics & Embedded Systems</p>
+    <p><strong>Co-op Student</strong> – Mechatronics Engineering</p>
+    <p><strong>Student Research Assistant</strong> – Embedded Systems & Control Engineering</p>
   </div>
 
   <div class="resume-item">
@@ -37,6 +38,7 @@
   </div>
 </div>
 
+<!--
 ---
 
 ## Projects
@@ -51,3 +53,4 @@
     </div>
   </div>
 </div>
+-->
