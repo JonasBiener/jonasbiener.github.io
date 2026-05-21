@@ -14,6 +14,27 @@
   <a href="https://www.linkedin.com/in/jonas-biener/" class="social-btn linkedin">LinkedIn</a>
   <a href="https://github.com/JonasBiener" class="social-btn github">GitHub</a>
   <a href="https://www.rocci.net/" class="social-btn rocci">RoCCI e.V.</a>
+  <span class="social-email">info [at] jonasbiener [dot] de</span>
+</div>
+
+---
+## Background
+
+<div class="resume-grid">
+  <div class="resume-item">
+    <h3>Education</h3>
+    <p>B.Eng. Mechatronics Engineering – THU Ulm</p>
+  </div>
+
+  <div class="resume-item">
+    <h3>Experience</h3>
+    <p>Student Assistant – Electronics & Embedded Systems</p>
+  </div>
+
+  <div class="resume-item">
+    <h3>Skills</h3>
+    <p>Embedded Systems, PCB Design, Control Engineering, Simulation</p>
+  </div>
 </div>
 
 ---
