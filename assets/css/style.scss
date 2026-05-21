@@ -8,13 +8,59 @@ $body-link-color: #0d88ff;
 
 @import "{{ site.theme }}";
 
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.intro-image {
+  width: 220px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.social-btn {
+  background: $header-bg-color;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.social-btn:hover {
+  background: $header-bg-color-secondary;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+
 .project-card {
   background: #ffffff;
   border-radius: 8px;
   padding: 1.2rem;
   margin: 1.5rem 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  border-left: 4px solid #99cdff;
+  border-left: 4px solid $header-bg-color;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -35,6 +81,7 @@ $body-link-color: #0d88ff;
 }
 
 .project-image {
+  background: transparent !important;
   width: 180px;
   border-radius: 6px;
   flex-shrink: 0;
