@@ -12,11 +12,29 @@ $body-link-color: #0d88ff;
   background: #ffffff;
   border-radius: 8px;
   padding: 1.2rem;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  border-left: 4px solid #5aaeff;
+  border-left: 4px solid #99cdff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .project-card h3 {
   margin-top: 0;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  filter: brightness(0.95);
+  transition: filter 0.2s ease;
+}
+
+.project-card:hover .project-image {
+  filter: brightness(1.05);
 }
