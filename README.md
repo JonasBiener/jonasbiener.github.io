@@ -1,2 +1,9 @@
-# jonasbiener.github.io
-Personal Portfolio Website
+Hi! I am a Mechatronics Engineering student from Germany, working at the intersection of embedded systems, electronics, and robotics.  
+My work focuses on building reliable hardware–software systems, from PCB design and firmware development to control engineering and simulation.
+
+I enjoy developing clean, minimalistic technical solutions and working on projects that combine practical engineering with real‑world impact.
+
+### Links  
+- [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/jonas-biener/))  
+- [GitHub](https://github.com/JonasBiener)  
+- [Robotics Competence Center Illertal e.V.](https://www.rocci.net/)  
